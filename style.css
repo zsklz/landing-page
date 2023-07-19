@@ -71,10 +71,12 @@ header {
 }
 
 button {
-    width: 100px;
+    width: 150px;
+    height: 40px;
     background-color: #3882f6;
     color: #f9faf8;
-    font-weight: 800;
+    font-size: 18px;
+    font-weight: 700;
     padding: 5px 3px;
     border: none;
     border-radius: 5px;
@@ -155,9 +157,45 @@ button {
 
 .signup {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 300px;
+}
+
+.call-to-action {
+    flex: 1;
+    background-color: #3382f6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 30px;
+    padding: 40px 100px;
+}
+
+.call-to-action-header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.call-to-action-text {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.btn {
+    border: 3px solid #f9faf8;
 }
 
 footer {
     flex: 0;
+    display: flex;
+    justify-content: center;
     background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 40px 0;
+    font-size: 18px;
 }
